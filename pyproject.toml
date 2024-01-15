@@ -1,0 +1,15 @@
+[project]
+name = "prasterize"
+version = "1.0.0"
+description = "A software 3d rasterizer for pygame (no other dependencies, e.g. numpy)"
+readme = "README.md"
+license = {file = "LICENSE"}
+dependencies = ["pygame"]
+[project.urls]
+"Homepage" = "https://github.com/PocketEngineer1/pyrasterize-fork"
+"Source" = "https://github.com/PocketEngineer1/pyrasterize-fork/"
+[build-system]
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+[tool.setuptools.packages.find]
+include = ["pyrasterize"]
